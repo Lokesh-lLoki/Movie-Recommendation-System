@@ -1,0 +1,22 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE settings
+.vscode/
+
+# Dataset files
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+
+# Temporary files
+*.log
+.DS_Store

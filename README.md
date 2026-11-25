@@ -1,64 +1,31 @@
-# Movie Recommendation System
+# Movie Recommendation System 🎬
 
-A content-based Movie Recommendation System built using Python and Machine Learning. It recommends similar movies based on movie descriptions, genres, keywords, cast, and directors.
+## Project Overview
 
-## Features
+The Movie Recommendation System is a machine learning-based application designed to recommend movies based on content similarity.
+
+It uses **TF-IDF Vectorization** to convert movie-related text into numerical features and **Cosine Similarity** to calculate similarities between movies.
+
+Users can select a movie and receive recommendations for similar movies through an interactive Streamlit interface.
+
+## Key Features
+
 - Content-based movie recommendations
-- TF-IDF Vectorization
-- Cosine Similarity
-- Movie search and selection
-- Interactive Streamlit web application
+- TF-IDF text vectorization
+- Cosine Similarity for movie similarity calculation
+- Interactive Streamlit interface
+- Precomputed similarity matrix for recommendations
 
 ## Technologies Used
+
 - Python
-- Pandas and NumPy
-- Scikit-learn
-- TF-IDF Vectorizer
+- Machine Learning
+- TF-IDF Vectorization
 - Cosine Similarity
+- Scikit-learn
+- Pandas and NumPy
 - Streamlit
-- Jupyter Notebook
 
-## Dataset
-TMDB 5000 Movie Dataset:
-- `tmdb_5000_movies.csv`
-- `tmdb_5000_credits.csv`
+## Project Objective
 
-## Project Structure
-```text
-Movies Recommendation/
-├── app/
-│   └── app.py
-├── models/
-│   ├── tfidf_vectorizer.pkl
-│   └── tfidf_matrix.pkl
-├── processed/
-│   └── movies_processed.csv
-├── README.md
-└── requirements.txt
-```
-
-## How to Run
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python -m streamlit run app/app.py
-```
-
-## Machine Learning Approach
-1. Data cleaning and preprocessing
-2. Feature extraction from movie metadata
-3. Text combination into movie tags
-4. TF-IDF vectorization
-5. Cosine similarity calculation
-6. Movie recommendations based on similarity scores
-
-## Author
-Lokesh
-
+To develop an interactive movie recommendation application that helps users discover movies based on content similarity.
